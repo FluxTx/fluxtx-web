@@ -1,0 +1,10 @@
+import {Tooltip} from 'radix-ui'
+import {Navbar} from './components/Navbar'
+import {Hero} from './components/Hero'
+import {Features} from './components/Features'
+import {Ecosystem} from './components/Ecosystem'
+import {HowItWorks} from './components/HowItWorks'
+import {DeveloperSection} from './components/DeveloperSection'
+import {Newsletter} from './components/Newsletter'
+import {Footer} from './components/Footer'
+export default function App(){return <Tooltip.Provider delayDuration={150}><Navbar/><main id="top"><Hero/><Features/><Ecosystem/><HowItWorks/><DeveloperSection/><Newsletter/></main><Footer/></Tooltip.Provider>}
